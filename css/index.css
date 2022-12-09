@@ -1,0 +1,172 @@
+@media (max-width: 991px) {
+    .navbar-scroll {
+      background-color: #fff;
+    }
+       
+    .navbar-scroll .navbar-brand,
+    .navbar-scroll .nav-link,
+    .navbar-scroll .fa-bars {
+      color: #4f4f4f !important;
+    }         
+  }
+  
+  .navbar-brand {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color:blue;
+   
+  }
+  
+  .navbar-scroll {
+    box-shadow: none;
+  }
+  
+  .navbar-scrolled {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  
+  }
+  
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color:blue !important;
+    left: 500px !important;
+  }
+  
+  
+  .navbar-scrolled {
+    background-color: #fff;
+  }
+  .section .card .image{
+    height: 140px;
+    width: 140px;
+  }
+  .section .card .image .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .image{
+    
+    display: flex;
+    justify-content: center;
+   }
+   .lk{
+   
+    color: brown;
+      font-size: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   .bm:hover{
+    color:red;
+    transition: .2s;}
+    .bm{
+      color:cadetblue;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        top:30px;
+        padding-right: 90px !important;
+     }
+     .ot{
+      display: flex;
+      color: #4f4f4f;
+      justify-content: center;
+     transition: .2s
+     
+     ;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     border-radius: 5px;
+     }
+     .ot:hover{
+      color: darkgray;
+     }
+   .nav-link{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    top:50px !important;
+   
+   }
+   .nav-link:hover{
+    color:red;
+    border-radius: 5px;
+   
+   }
+   .dropdown{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:60px;
+    left:160px
+   
+   }.dropdown:hover{
+    color: red !important;
+    transition: .2s;
+   }
+   .nav{
+    display: flex;
+    justify-content: center;
+    
+   }
+   .bi{
+    color:cadetblue;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+      padding-right: 50px !important;
+   }
+   .img-fluid{
+    padding: 3px;
+    width: 50px;
+   }
+   .cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .rate-popover{
+    color: #c4c4c4;
+  }
+  .live{
+    color: black;
+  }

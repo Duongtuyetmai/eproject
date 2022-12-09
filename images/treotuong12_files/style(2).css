@@ -1,0 +1,490 @@
+/*
+Theme Name: Nội thất
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.header-search-form-wrapper input[type='search']{background: white;
+    height: 47px;
+    box-shadow: none;
+    border: 1px solid #e3e3e3;
+    font-size: 15px;
+    border-radius: 0;}
+.searchform .button.icon {
+    margin: 0;
+    height: 45px;
+    width: 70px;
+    background: #71bf44;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}.nav-dropdown-default {box-shadow: 1px 1px 15px rgba(0,0,0,0.15);
+    padding: 0;
+}
+.product-categories li:hover{background:#ffb928}
+.product-categories .current-cat a{color:white}
+.product-categories .current-cat {background:#71bf44}
+
+.product-categories li a{padding:12px 0 !important; font-size: 15px;
+    font-weight: bolder;
+    color: #11294b;}
+.blog-single .product-categories{background: #fefefe;
+    border: 1px solid #ebebeb;}
+.product-categories li{padding-left: 10px;
+    padding-right: 10px;
+    font-family: "barlow", sans-serif;
+    text-transform: uppercase;}
+.product-categories{background:white}
+.archive .large-3{padding-right:5px}
+body.home #mega_menu, .widget .is-divider, .blog-archive .large-9 .badge, .is-divider{display:none}
+.blog-single .entry-header-text-top{padding-bottom:0}
+.blog-single .blog-share{text-align:left}
+.widget_shopping_cart_content p{padding:10px; font-size:15px}
+.header-nav .cart-item .header-button a{color:white; background:#71bf44}
+.category-section .product-small .price span.amount{font-family: "barlow", sans-serif;
+    font-size: 18px;
+    color: #dc306b;}
+.product_list_widget{background:white;padding: 0 10px;border: 1px solid #ececec;}
+ul.product_list_widget li img{border-radius:99%}.khuyen-mai {
+    background: #fffad7;
+    border: 1px dashed #f85c00;
+    border-radius: 4px;
+    padding: 9px;
+    margin-bottom: 20px;
+}.khuyen-mai ul li {
+    margin-bottom: 0;
+}.khuyen-mai ul {
+    margin-bottom: 0;
+}.product-main {
+    padding: 20px 0;
+}.product-info {padding-bottom:0; 
+    padding-top: 0;
+}.nav-tabs > li.active > a {
+    border-top-color: #253e57;
+    background: #71bf44;
+    color: white;
+}
+
+.related .product-section-title{margin: 0;
+    letter-spacing: 0;
+    text-transform: none;}
+.single-product .related{background: #ebebeb;
+    padding: 0 20px; margin-bottom:20px}
+.nav-tabs+.tab-panels{border:0; border-top:1px solid whitesmoke; padding: 20px 0;}
+.product-tabs li a{border-top: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    color: white;
+    background: #497f44;}
+.product-footer .woocommerce-tabs{border-top:0; padding-top:0}
+.product_meta>span{font-size:15px}
+.product-info .price{margin-top:5px !important; margin-bottom:7px !important}
+.single-product .product-info h1.product-title{margin-bottom:0px}
+.single-product .product-short-description p{    font-size: 14px;
+    margin-bottom: 10px;}
+.single-product .product-info .price del span{color:gray !important; font-size:15px !important}
+.single-product .product-info .price .amount, .single-product .product-info .price ins span{    color: #dc3074;
+    font-family: "barlow", sans-serif;
+    font-size: 20px;}
+.single-product span.widget-title{text-align:center}
+.single-product .product_list_widget{background: #fafafa; border:1px solid #ebebeb;border: 1px solid #ebebeb;}
+.product-info{border-right:0}
+#product-sidebar{padding-left:0}
+.product_list_widget li del span{font-size:14px !important; color:gray !important}
+.product_list_widget li ins span, .product_list_widget .amount{   color: #dc306b;
+    font-family: "barlow", sans-serif;
+    font-size: 16px;}
+.related .product-small .price .amount{margin-top: 20px;
+    display: block;
+    color: #dc3074;
+    font-family: "barlow", sans-serif;}
+.related .product-small .price{margin-top:0}
+.related .product-small .star-rating{margin:0 auto}
+.related .product-small .price del{display:none}
+.related .product-small .price ins span{font-size: 20px;
+    font-family: "barlow", sans-serif;
+    color: #dc3074;
+    display: inline-block;
+    margin-top: 6px !important;}
+.related .product-small .box-text{background:white}
+#reviews .large-12{padding-bottom:0}
+.comment-form input[type='submit']{margin:0; text-transform:none; border-radius:4px; font-weight:normal}
+.comment-form{margin-bottom:0}
+#reviews{margin-bottom:20px}
+#reviews .review-form-inner{    padding: 20px;
+    border: 1px solid #ebebeb;
+    background: #ebebeb;}
+.product_list_widget .star-rating, .related .badge-container{display:none}
+.product_list_widget li a{font-size:15px; color:black}
+.nav-dropdown>li>a:hover{color:white}
+.header-bottom .nav li a:hover{background:#fa8e03;color:white }
+.nav-dropdown.nav-dropdown-default>li>a{font-weight:normal !important}
+.nav-dropdown.nav-dropdown-default>li>a{margin:0}
+.nav-dropdown>li>a{padding:7px 20px}
+#mega-menu-wrap{background: #71bf44;}
+
+#mega-menu-title{line-height:30px;font-size: 17px;
+    font-family: "barlow", sans-serif;
+    font-weight: 700;}
+#wide-nav > .flex-row > .flex-left{margin-right:0; min-width:278px}
+.nav-divided>li+li>a:after{display:none}
+.top-bar-nav li a{font-size: 15px;
+    color: black;}
+#header-contact li a{font-size: 17px;
+    text-transform: none;
+    color: #182f45;
+    padding: 6px 0;}
+#header-contact li{margin:0;    display: block;
+    float: none;
+}
+.woocommerce-result-count, .woocommerce-ordering{font-size:15px}
+.header-bottom .nav li.active>a{background:#fa8d00}
+.header-bottom .container{background:white; border-top-left-radius:10px;    border-bottom: 1px solid #ebebeb; border-top-right-radius:10px}
+.header-bottom .nav li a{border-right: 1px solid #ebebeb;  color:black; padding-left:15px; padding-right:15px;line-height: 30px;    font-size: 15px;
+    font-weight: bold;}
+.header-bottom .nav li{margin:0}
+#header-contact .icon-envelop:before, #header-contact .icon-phone:before {
+    color: #71bf44;
+    font-size: 18px;
+}
+li.html select{height: 47px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;}
+#header-contact{display:block}
+#mega_menu > li {    border-top: 1px solid #2d4e6e;
+    background: #253e57;
+}.nav-small.nav>li.html {
+    font-size: 15px;
+    color: #606060;
+}.section-title-normal span { color:white; padding-right:15px; 
+    margin-right: 15px;
+    padding-bottom: 12px;
+    border-bottom: 0;
+    padding-left: 15px;
+    margin-bottom: 0;border-top-left-radius: 5px;
+    padding-top: 12px;font-size: 20px;    color: white !important
+}
+.section-title a {    color: white;
+    display: block;
+    padding-left: 15px;
+   margin-left: auto;
+    padding-right: 10px;
+    font-weight: normal;
+	font-size: 16px;}
+.section-title-normal{    background-image: linear-gradient(to right, #182f45 , #71bf44);border-bottom: 2px solid #71bf44;    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;}
+.category-section .product-small {background: white;margin-bottom: 20px;
+  
+    }
+.category-section{padding-bottom: 0 !important;}
+.category-section .badge-container{display:none}
+.category-section .product-small .box-text, .archive .product-small .box-text{padding-bottom:20px; padding-left:0; padding-right:0}
+.category-section .product-small .box-text .product-title a, .archive .product-small .box-text .product-title a{font-size:16px; color:#182f45}
+.category-section .product-small .price, .category-section .product-small .price del span, .archive .product-small .price, .archive .product-small .price del span {color:gray !important; font-size:16px !important;}
+.category-section .product-small .price ins span, .archive .product-small .price ins span, .archive .product-small .price .amount{ font-size: 20px;
+    font-family: "barlow",sans-serif;
+    color: #dc306b;}
+.price-wrapper .price {
+    margin-top: 15px;
+}
+.tai-sao .col{padding-bottom:0; }
+#mega_menu li a{font-weight:normal; color:white;   
+    background-image: url(/wp-content/uploads/2019/03/dot.png);
+    background-repeat: no-repeat;
+    background-position-x: 9px;
+    background-position-y: center; padding: 8px 26px;}
+#mega_menu > li a:hover{background-color:#71bf44; color:white;background-image: url(/wp-content/uploads/2019/03/dot.png);
+    background-repeat: no-repeat;
+    background-position-x: 9px;
+    background-position-y: center;
+    padding: 8px 26px;}
+.flickity-viewport .image-cover img{border-radius:10px}
+#mega_menu{border:0}
+.slider-style-shadow {
+    padding: 20px 0 25px;
+    background: #182f45;
+}
+.tai-sao .icon-box h3{font-size:18px; color:#274e85}
+.tai-sao .icon-box .icon-box-text{font-size:15px}
+.tai-sao .icon-box {padding: 25px 10px;
+    border-radius: 10px;}
+.tai-sao .icon-box:hover{background-image:linear-gradient(#2a5188, #182f45); color:white}
+.tai-sao .icon-box:hover h3{color:#71c043}
+.tai-sao .large-12{padding-bottom:0}
+.section-title-container {
+    margin-bottom: 0;
+}
+.tai-sao .icon-box:hover img{border:2px solid #71bf44; padding:6px; border-radius:99%}
+.testimonial-company{font-size: 14px;
+    color: gray;}
+.testimonial-name{    font-family: "barlow", sans-serif;
+    font-size: 18px;
+    color: #182f45;}
+.du-an-noi-bat .post-item .post-title{font-family: "barlow", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: white;}
+.du-an-noi-bat .post-item .box-text .from_the_blog_excerpt {color: gray;
+    height: 45px;
+    overflow: hidden;}
+.du-an-noi-bat .post-item .col-inner{    background: #00000094;
+    border-radius: 6px;
+    padding: 20px;}
+.du-an-noi-bat .post-item .box-text{padding:15px 10px; padding-bottom:0}
+.category-section .col{padding-bottom:0}
+.box-blog-post .is-divider{display:none}
+.du-an-noi-bat .large-12{padding-bottom:0}
+.tin-tuc .section-title-normal span{padding-top: 5px;padding-bottom: 6px;font-size: 18px; border-top-right-radius:5px}
+.tin-tuc .box-vertical .post-title, .tin-tuc .cot2 .post-item .post-title{font-size:18px !important}
+.tin-tuc .post-item .post-title{margin-bottom:10px;    color: #182f45; font-size:16px}
+.tin-tuc .box-vertical .box-text{padding-right:0}
+.tin-tuc .col{padding-bottom:0}
+.ban-do .cham-ngon-song .col-inner{background: #71bf44;
+    padding-bottom: 0 !important;
+    height: 350px;
+    padding: 65px 145px 80px 0px;
+    color: white;}
+.ban-do .cot-ban-do .col-inner p{margin-bottom:0}
+.ban-do .cham-ngon-song h3{color:white;    text-transform: uppercase;
+    font-size: 22px;}
+
+.ban-do .cham-ngon-song .ten-ceo{text-transform: uppercase;
+    border-top: 1px solid white;
+    display: inline;
+    padding-top: 7px;
+    margin-top: 20px;}
+.footer-wrapper{margin-top:-9px}.float-contact {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 99999;
+}.chat-zalo {
+    background: #8eb22b;
+    border-radius: 20px;
+    padding: 0px 18px;
+    color: white;
+    display: block;
+    margin-bottom: 6px;
+}.chat-zalo a, .chat-face a, .hotline a {
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 0;
+}.chat-face {
+    background: #125c9e;
+    border-radius: 20px;
+    padding: 0px 18px;
+    color: white;
+    display: block;
+    margin-bottom: 6px;
+} .float-contact .hotline {
+    background: #d11a59 !important;
+    border-radius: 20px;
+    padding: 0 18px;
+    color: white;
+    display: block;
+    margin-bottom: 6px;
+}
+.ban-do .cham-ngon-song .col-inner:after {border-bottom: none;
+    /* border-right: none !important; */
+    border-right: 225px solid #71bf44;
+    content: ' ';
+    height: 100%;
+    right: 100%;
+    position: absolute;
+    top: 0;
+    width: 0px;
+    border-top: 350px solid transparent;
+}
+.footer-section h4{    color: #71bf44 !important;}
+.copyright-footer{font-size:13px}
+.absolute-footer .footer-nav a{text-transform: none;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #6594c1;}
+.back-to-top{background: #71bf44 !important;
+    border: 0 !important;
+    color: white !important;}
+.absolute-footer.dark{    border-top: 1px solid #1f3a54;}
+.breadcrumbs {
+    text-transform: uppercase;
+    color: #71bf44;
+    font-weight: normal;
+   
+}
+.banner-category img{border-radius:10px}
+.banner-category{ padding-top:20px;margin-bottom:20px}
+.archive .badge-container{margin:10px}
+.archive .badge-container .badge-inner{border-radius:99%; font-weight:normal}
+.archive #main{background:#ebebeb}.category-page-row {
+    padding-top: 0px;
+}
+.page-title-inner{padding-bottom:20px}
+.archive .product-small .col-inner{background:white;}
+.tax-product_cat.woocommerce .shop-container .term-description{    background: white;
+    padding: 20px;}
+.devvn_readmore_taxonomy_flatsome a{    margin-bottom: 10px;}
+span.widget-title {
+  
+    display: block;
+    background: #11294b;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: "barlow", sans-serif;
+    font-size: 19px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.devvn-popup-title, .popup-customer-info-group .devvn-order-btn{    background: #71bf44;}
+a.devvn_buy_now_style span{font-size:13px}
+.devvn_buy_now strong{font-family:"barlow",sans-serif}
+a.devvn_buy_now_style{max-width:100%; margin-bottom:0}
+.contact-button .col{padding-bottom:0}
+.chat-facebook{background: #1664b2 !important;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: none;
+    padding: 3px 0;}
+.hotline{background: #71bf44 !important;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: none;
+    padding: 3px 0;}
+.single-product .thong-bao .left{width:65%; float:left; display:inline-block; }
+.single-product .thong-bao .right{width:35%; float:left; display:inline-block}
+.thong-bao ul{  margin-bottom:0;   margin-left: 20px;
+    font-size: 15px;}
+.thong-bao h3{    color: #71bf44;}
+input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea{font-size:14px; border-radius:4px; box-shadow:none}
+form{margin-bottom:0}
+.thong-bao input[type='submit']{text-transform: none;
+    font-weight: normal;
+    border-radius: 4px;
+    background: #71bf44;
+    font-size: 14px;
+    margin: 0;}.fb-comments, .fb-comments span, .fb-comments span iframe{
+width:100% !important;
+display:inline-block !important;
+max-width:100% !important
+}
+.fb-comments{border: 1px solid #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;}
+.blog-archive{background:white; padding-top:20px; padding-bottom:20px}
+.blog-archive .taxonomy-description{text-align:left; font-size:15px}
+.blog-archive h1.page-title{    text-align: left;
+    letter-spacing: 0;
+    color: #71bf44;}
+.blog-archive .large-12{padding-bottom:0;}
+.blog-archive .post-item .box-text{padding:0 15px}
+.blog-archive .post-item .box-text .post-title{margin-top: 10px;
+    font-size: 18px;
+    color: #11294b;
+    font-family: "barlow", sans-serif;
+    margin-bottom: 10px;}
+.blog-archive .post-item .col-inner{border: 1px solid #ececec; border-radius:4px}
+.blog-archive .large-9{padding-left:15px}
+.blog-archive .product-categories{background: #fcfcfc;
+    border: 1px solid #ebebeb;}
+.single-product .thong-bao{ display:inline-block;   margin-bottom: 20px;width:100%;
+    background: #fff8d5;
+    padding: 20px;
+    padding-top: 15px;
+    border: 2px dashed #ff7600;
+    border-radius: 4px; clear:both}
+.xem-them{    margin: 0;
+    padding: 0;
+    text-transform: none;
+    font-weight: normal;
+    color: #71bf44;
+    line-height: 10px;
+    min-height: 10px;}
+.flatsome_recent_posts{border: 1px solid #ebebeb;}
+.flatsome_recent_posts li{    padding-left: 10px;
+    padding-right: 10px;}
+.blog-single .large-3{padding-right:0}
+.flatsome_recent_posts li .badge-inner{border-radius:99%}
+.flatsome_recent_posts li a{font-size:15px; color:#11294b}
+.flatsome_recent_posts li a:hover{color:#71bf44}
+.entry-content{padding-bottom:0}
+.blog-single footer.entry-meta{font-size:15px}
+.danh-muc{    display: block;
+    margin-bottom: 5px;}
+.the-tim-kiem a{background: #f2f2f2;
+    padding: 5px 10px;
+    margin-bottom: 5px;}
+.the-tim-kiem a:hover{background:#71bf44; color:white;}
+.bai-viet-lien-quan{padding-bottom:0; margin-top:20px;background: #f2f2f2;
+    padding: 15px;}
+.bai-viet-lien-quan ul{margin: 0;
+    display: inline-block;
+    width: 100%;
+    clear: both;}
+.bai-viet-lien-quan ul h4 a{color: #11294b;
+    margin-top: 5px;
+    display: block;
+    font-size: 16px;height:67px; overflow:hidden;
+    line-height: 20px;}
+.page-left-sidebar .product-categories{border: 1px solid #ebebeb;}
+.return-to-shop a{text-transform:none; font-weight:normal}
+.page-left-sidebar .large-3{padding-right:5px; border-right:0}
+h1.entry-title.mb {
+    margin-bottom: 10px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 22px;
+    color: #71bf44;
+}
+.page-inner ul, .page-inner ol{margin-left:20px}
+.bai-viet-lien-quan ul img{border-radius:5px; height:130px}
+.ban-do{margin-top:20px}
+.bai-viet-lien-quan h3{    padding-left: 6px;}
+.bai-viet-lien-quan ul li{margin-bottom:0; width: 25%;
+    padding: 0 6px;
+    float: left;
+    display: inline-block;}
+body, .category-section .product-small .price span.amount{    word-wrap: break-word;}
+.single-product .product-short-description ul li{font-size:15px}
+.mega-menu-wrap:hover #mega_menu{display:block;
+z-index:99999;
+} 
+
+.secondary.is-underline, .secondary.is-link, .secondary.is-outline, .stars a.active, .star-rating:before, .woocommerce-page .star-rating:before, .star-rating span:before, .color-secondary{color: #facb00;}
+.category-section .img{margin-bottom:22px !important}
+.product-tabs {background-image: linear-gradient(to right, #182f45 , #71bf44); border-top-left-radius:10px; border-top-right-radius:10px;border-bottom: 2px solid #71bf44;}
+.related .box.product-small:hover, .category-section .box.product-small:hover{box-shadow:2px 2px 20px #bbbbbb}
+.bottom-contact{display:none}
+@media  (max-width: 767px) {
+.bottom-contact{display: block;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 2px 1px 9px  #0000008a;
+    border-top: 1px solid #eaeaea;}
+.bottom-contact ul li{width: 25%; margin-bottom:0; 
+    float: left;
+    list-style: none;
+    text-align: center; font-size:13.5px;}
+.bottom-contact ul li span{color:black}
+.bottom-contact ul li img{    width: 35px;
+    margin-top: 3px;
+    margin-bottom: 0px;}
+ 
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
