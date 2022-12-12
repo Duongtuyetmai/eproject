@@ -3,6 +3,10 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   width: 200px;
 }
+.dropdown:hover{
+  color:red !important;
+  transition: 0s;
+}
 *{
   margin: 0;
   padding: 0;
