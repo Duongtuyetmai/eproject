@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
@@ -27,23 +26,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- 1. nhung link angularjs framework -->
-    <script src="js/angular.min.js"></script>
-    <script src="js/angular-route.min.js"></script>
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/nky.css">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/menu.css">
-
+    <link rel="stylesheet" href="css/contact.css">
+    <style>
+        body{
+            background-color:rgb(8, 51, 74);
+        }
+    </style>
 
 </head>
 
 <body>
     <header>
+
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#!"><span style="color: #5e9693;">Ryana</span><span
-                        style="color: #fff;">Calendar</span></a></a>
+                        style="color: #fff;"> Ryana Calendar</span></a></a>
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -61,15 +62,15 @@
                                 <span class="caret"></span></button>
                             <ul class="dropdown-menu">
 
-                                <li><a href="menu.html" class="ot">Calenndar</a></li>
+                                <li><a href="lichdb.html" class="ot">Calenndar</a></li>
                                 <li><a href="nky.html" class="ot">Diary</a></li>
-                                <li><a href="#" class="ot">Other</a></li>
+                                <li><a href="khac.html" class="ot">Other</a></li>
 
                             </ul>
 
                         </div>
                         <li class="nav-item">
-                            <a class="nav-link" href="#!" style="width:300px;padding-top: 30px;padding-left:150px">About
+                            <a class="nav-link" href="aboutus.html" style="width:300px;padding-top: 30px;padding-left:150px">About
                                 Us</a>
                         </li>
                         <li class="nav-item">
@@ -105,102 +106,272 @@
             </div>
             </div>
         </nav>
+    </header>
         <!-- Navbar -->
 
-
-
-        <div class="row mb ">
-            <div class="boxtrai mr">
-                <div class="row">
-                    <div class="banner"><img src="images/2023.jpg" alt="">
+    <section class="section-products">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="header">
+                        <h3>product</h3>
+                        <h2>Celender</h2>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+    
+                    
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lichdb8.jpg">
 
-                <div class="row mb">
-                    <div class="boxtitle">Category</div>
-                    <div class="boxcontent2 menudoc">
-                        <ul>
-                            <li>
-                                <a href="lichdb.html">Desk calendar </a>
-                            </li>
-                            <li>
-                                <a href="lichbloc.html"> Calendar bloc</a>
-                            </li>
-                            <li>
-                                <a href="lichttuong.html">Wall calendar</a>
-                            </li>
-
-                        </ul>
+                            <ul>
+                                
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb11_1.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-old-price">$79.99</h4>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-
                 </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-2" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lich đe ban 2.jpg">
 
-                <div class="row">
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lich đẻ bàn 3.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb3_3.html">detail</a>
+                            <span class="discount">15% off</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb1.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lich để bàn 2.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb2.html">detail</a>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-3" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lich đẻ bàn 3.jpg">
+
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb1_1.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-old-price">$79.99</h4>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp ">
-                        <div class="row img"><img src="images/lich đểbàn 3.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb3.html">detail</a>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lich đẻ bàn4.jpg">
+
+                            <span class="new">new</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb44_4.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lich để bàn1.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb1.html">detail</a>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lich đe bàn 5.jpg">
+
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb5.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-titleHere Product Title">Celender</h3>
+                            <h4 class="product-old-price">$79.99</h4>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lichđẻ bàn 6.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb6.html">detail</a>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-2" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lich đểbàn 3.jpg">
+
+                            <span class="discount">15% off</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb6.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp ">
-                        <div class="row img"><img src="images/lich đe ban1.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb1_1.html">detail</a>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-3" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lich để bàn 2.jpg">
+
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb2_2.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-old-price">$79.99</h4>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lich đe ban 2.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb2_2.html">detail</a>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lichdb1.jpg">
+
+
+                            <span class="new">new</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb1.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lich đe bàn 5.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb5.html">detail</a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lịchdb2.jpg">
+
+
+                            <span class="new">new</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb2_2.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lichdb1.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb11_1.html">detail</a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lichdb3.jpg">
+
+
+                            <span class="new">new</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb3.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lịchdb2.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb22_2.html">detail</a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lichdb5.jpg">
+
+
+                            <span class="new">new</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb2.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lichdb3.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb33_3.html">Calendar</a>
-                    </div>
-                    <div class="boxsp mr">
-                        <div class="row img"><img src="images/lichdb4.jpg" alt=""></div>
-                        <p>$30</p>
-                        <a href="ldb44_4.html">detail</a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div class="part-1">
+                            <img src="images/lichdb7.jpg">
+
+
+                            <span class="new">new</span>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="ldb1.html"><i class="fas fa-plus"></i></a></li>
+                                <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            
+                            <h3 class="product-title">Celender</h3>
+                            <h4 class="product-price">$49.99</h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-
+    </section>
     <footer class="text-center text-lg-start bg-dark text-muted">
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -213,14 +384,14 @@
             <!-- Right -->
             <div>
                 <a href="https://vi-vn.facebook.com/" class="me-4 text-reset">
-                    <i class="fab"><img src="images/bia1.jpg" width="50px" alt=""></i>
+                    <i class="fab"><img src="images/f.png" width="50px" alt=""></i>
                 </a>
                 <a href="https://zalo.me/" class="me-4 text-reset">
-                    <i class="fa"><img src="image/z.webp" width="50px" alt=""></i>
+                    <i class="fa"><img src="images/z.webp" width="50px" alt=""></i>
                 </a>
 
                 <a href="https://www.instagram.com/accounts/login/" class="me-4 text-reset">
-                    <i class="fb"><img src="image/i.png" width="50px" alt=""></i>
+                    <i class="fb"><img src="images/i.png" width="50px" alt=""></i>
                 </a>
 
             </div>

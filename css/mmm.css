@@ -1,0 +1,17 @@
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: #EEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #CCC solid;
+}
+.boxcontent {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
