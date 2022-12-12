@@ -17,7 +17,7 @@ Project title: Calendar Ryana
        Duong Tuyet Mai   Student1405218
 ============================
 
-eProject documentation at  C:\Users\USER\Pictures\review final.docx
+eProject documentation at  https://github.com/Duongtuyetmai/eproject/tree/master/document
 
 ============================
 
