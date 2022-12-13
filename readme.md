@@ -17,7 +17,7 @@ Project title: Calendar Ryana
        Duong Tuyet Mai   Student1405218
 ============================
 
-eProject documentation at https://github.com/Duongtuyetmai/eproject/blob/3e757265aa9fb19149cde99f530011993461afd1/document/FPT%20ACADEMY%20INTERNATIONAL.docx
+eProject documentation at https://github.com/Duongtuyetmai/eproject/blob/master/document/FPT%20ACADEMY%20INTERNATIONAL.docx
 
 ============================
 
