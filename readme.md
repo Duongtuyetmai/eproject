@@ -21,7 +21,7 @@ eProject documentation at https://github.com/Duongtuyetmai/eproject/blob/master/
 
 ============================
 
-eProject published at  https://duongtuyetmai.github.io/eproject/
+eProject published at   https://duongtuyetmai.github.io/eproject/
 
 ============================
 
